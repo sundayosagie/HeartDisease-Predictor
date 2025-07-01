@@ -1,0 +1,24 @@
+DSA-Heart-Disease-Predictor/
+│
+├── app.py                      # Flask application
+├── requirements.txt            # Python dependencies
+│
+├── /templates                  # HTML templates for Flask
+│   ├── index.html
+│   └── result.html
+│
+├── /models                     # Saved ML models and preprocessor
+│   ├── logistic_regression_model.pkl
+│   ├── random_forest_model.pkl
+│   └── preprocessor.pkl
+│
+├── /data                       # Dataset files
+│   └── cleaned_heart.csv
+│
+├── /notebooks                  # Jupyter Notebooks (EDA + training)
+│   └── heart_disease_model.ipynb
+│
+├── /static (optional)         # For images, CSS if needed
+│
+├── Capstone_Report.pdf         # Final report (or .pptx)
+└── README.md                   # Project overview and instructions
