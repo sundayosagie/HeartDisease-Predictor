@@ -8,7 +8,7 @@ The application allows users to input patient data and receive a prediction resu
 
 ##  Live Demo
 
-_Deployment URL will appear here after deployment to Render._
+https://heartdisease-predictor-e60z.onrender.com/
 
 ##  Project Structure
 
