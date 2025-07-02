@@ -6,9 +6,36 @@ This is the capstone project for the Digital Skillup Africa (DSA) AI/ML Foundati
 
 The application allows users to input patient data and receive a prediction result (e.g., high or low risk of heart disease). It is powered by a trained machine learning model (Logistic Regression and/or Random Forest).
 
-##  Live Demo
+# Heart Disease Prediction with AI/ML
 
-https://heartdisease-predictor-e60z.onrender.com/
+This project uses supervised machine learning models to predict the likelihood of heart disease in patients based on clinical features. It includes a web-based interface built with Flask for real-time predictions.
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![ML Model](https://img.shields.io/badge/Model-Logistic%20Regression%20%2F%20RandomForest-green)
+![Status](https://img.shields.io/badge/Deployed-Render-success)
+
+
+## Live Demo
+👉 [Launch Web App](https://heartdisease-predictor-e60z.onrender.com/)
+
+## GitHub Repository
+👉 [View Source Code](https://github.com/sundayosagie/HeartDisease-)
+
+## 📊 Project Overview
+
+**Category:** Healthcare  
+**Problem Statement:** Early prediction of heart disease to assist clinicians in diagnosis and treatment.  
+**Model Used:** Logistic Regression & Random Forest  
+**AUC Score:** 0.94  
+**Accuracy:** 84%
+
+## Tools & Technologies
+- Python (3.10)
+- Flask
+- Pandas, NumPy, Scikit-learn
+- Matplotlib & Seaborn
+- Render (Deployment)
+
 
 ##  Project Structure
 
@@ -81,11 +108,6 @@ Models Used
  - Logistic Regression: For baseline performance
  - Random Forest: For better accuracy and robustness
  - Evaluation metrics: Accuracy, Precision, Recall, F1 Score
-
-
-Report
-
-Download the final capstone report here: DSA_Capstone_HeartDisease_Report.pdf
 
 
 📌 Disclaimer
