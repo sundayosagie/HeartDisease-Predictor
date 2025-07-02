@@ -17,14 +17,18 @@ dsa-heart-predictor/
 ├── models/
 │ └── logistic_regression_model.pkl
 ├── templates/
-│ ├── index.html # Input form page
-│ └── result.html # Prediction result page
-├── static/ # (Optional) For CSS/images
-├── requirements.txt # Python dependencies
-├── Procfile # For deployment on Render
+│ ├── index.html 
+│ └── result.html 
+├── static/ 
+├── requirements.txt 
+├── Procfile 
 └── README.md
 
 
+## 🧪 Dataset
+
+- Source: [UCI Heart Disease Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
+- Cleaned and saved as `cleaned_heart.csv` in the `/data` folder
 
 ##  Features
 
@@ -49,14 +53,16 @@ dsa-heart-predictor/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dsa-heart-predictor.git
-cd dsa-heart-predictor
+git clone https://github.com/sundayosagie/HeartDisease-Predictor.git
+cd heartdisease-predictor
 
 
 2. Install dependencies:
 
 pip install -r requirements.txt
 
+
+Run Locally
 
 3. Run the Flask app:
 
@@ -70,6 +76,18 @@ Deployment
 
 This app can be deployed to platforms like Render or Heroku. The Procfile and requirements.txt are already included for easy deployment.
 
+
+Models Used
+ - Logistic Regression: For baseline performance
+ - Random Forest: For better accuracy and robustness
+ - Evaluation metrics: Accuracy, Precision, Recall, F1 Score
+
+
+Report
+
+Download the final capstone report here: DSA_Capstone_HeartDisease_Report.pdf
+
+
 📌 Disclaimer
 
 This tool offers a preliminary assessment and is not a substitute for professional medical advice. Always consult your doctor for proper diagnosis and treatment.
@@ -78,6 +96,6 @@ This tool offers a preliminary assessment and is not a substitute for profession
 
     Osagie Sunday
 
-    Capstone project submitted to DSA (The Incubator Hub)
+    2025 Capstone project submitted to DSA (The Incubator Hub)
 
 
