@@ -53,6 +53,34 @@ dsa-heart-predictor/
 
 
 ## 🧪 Dataset
+DSA-Heart-Disease-Predictor/
+│
+├── app.py
+├── requirements.txt
+│
+├── templates/
+│   ├── index.html
+│   └── result.html
+│
+├── models/
+│   ├── logistic_regression_model.pkl
+│   ├── random_forest_model.pkl
+│   └── preprocessor.pkl
+│
+├── data/
+│   └── cleaned_heart.csv
+│
+├── notebooks/
+│   └── heart_disease_model.ipynb
+│
+├── static/
+│
+├── screenshots/
+│   ├── home.jpg
+│   └── result.jpg
+│
+├── DSA_AI_ML_Final_Project_Sunday_Osagie.pdf
+└── README.md
 
 - Source: [UCI Heart Disease Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
 - Cleaned and saved as `cleaned_heart.csv` in the `/data` folder
