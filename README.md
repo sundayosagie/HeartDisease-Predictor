@@ -19,7 +19,7 @@ This project uses supervised machine learning models to predict the likelihood o
 👉 [Launch Web App](https://heartdisease-predictor-e60z.onrender.com/)
 
 ## GitHub Repository
-👉 [View Source Code](https://github.com/sundayosagie/HeartDisease-)
+👉 [View Source Code](https://github.com/sundayosagie/HeartDisease-Predictor)
 
 ## 📊 Project Overview
 
